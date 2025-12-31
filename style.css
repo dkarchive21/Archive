@@ -1,15 +1,14 @@
 /* Link Styles */
 a:link, a:visited, a:hover, a:active {
-  color: black; /* Black text colors for the buttons */
-  background-color: transparent;
+  color: black;
   text-decoration: none;
 }
 
 /* Body and Headings */
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(255, 255, 255); /* white color for the webpage  */
-  color: rgb(0, 0, 0); /* Black text color */
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -27,12 +26,11 @@ h1, h2 {
 }
 
 #searchInput {
-  width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(255, 205, 125); /* Set background color to black */
-  color: Black; /* Set text color to white */
+  background-color: rgb(255, 205, 125);
+  color: black;
   font-size: 16px;
   width: 300px;
   outline: none;
@@ -41,78 +39,72 @@ h1, h2 {
 /* Button Container */
 .button-container {
   display: flex;
-  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  flex-wrap: wrap;
   justify-content: center;
-  text-decoration: none;
 }
 
 .button-wrapper {
-  position: relative; /* Make the wrapper a positioned element */
-  display: inline-block; /* Allow the ribbon to position relative to the button */
+  position: relative;
+  display: inline-block;
 }
 
-
-
+/* BUTTON FIXED */
 .button {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 10px;
-  padding: 15px 20px; /* Enlarge the padding */
-  background-color: rgb(170, 212, 229), /* ice blue button color */
-     
-  
+  padding: 15px 20px;
+  background-color: rgb(170, 212, 229); /* FIXED */
   color: white;
   text-align: center;
-  text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
   max-width: 200px;
-  width: 100%; /* Make button width 100% */
+  width: 100%;
 }
 
+/* HOVER FIXED */
 .button:hover {
-  background-color: rgb(0, 163, 108), /* emerald green */ 
-    
-
-  
-  text-decoration: none;
+  background-color: rgb(0, 163, 108); /* FIXED */
 }
 
+/* Button Image */
 .button img {
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
 }
 
-/* Button Container 1 */
+/* Extra Button Container */
 .button-container1 {
   display: flex;
-  justify-content: center; /* Distribute the buttons evenly along the container */
-  margin-top: 20px; /* Add margin to separate from other elements */
+  justify-content: center;
+  margin-top: 20px;
 }
 
-/* Favicon Modal Styles (Dark Gray Theme) */
+/* Favicon Modal */
 #faviconSelection img {
-  width: 128px;    /* Set the width to 128px */
-  height: auto;    /* Maintain aspect ratio */
-  display: inline-block; /* Optional: make them line up horizontally */
+  width: 128px;
+  height: auto;
+  display: inline-block;
 }
 
-/* Ribbon Styles */
+/* Ribbon */
 .ribbon {
   position: absolute;
-  top: -10px; /* Adjust as needed */
-  left: -10px; /* Adjust as needed */
+  top: -10px;
+  left: -10px;
   background-color: red;
   color: white;
   padding: 5px 10px;
   font-size: 12px;
   text-align: center;
-  border-radius: 5px; /* Rounded corners */
-  transform: rotate(-15deg); /* Angle the ribbon */
-  z-index: 1; /* Ensure it appears above the button */
+  border-radius: 5px;
+  transform: rotate(-15deg);
+  z-index: 1;
 }
+
