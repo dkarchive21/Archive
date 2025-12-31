@@ -60,11 +60,9 @@ h1, h2 {
   justify-content: center;
   margin: 10px;
   padding: 15px 20px; /* Enlarge the padding */
-  background: linear-gradient(
-    to right,
-    rgb(170, 212, 229), /* ice blue button color */
-    rgb(65, 66, 65) /* gray color */ 
-  );
+  background-color: rgb(170, 212, 229), /* ice blue button color */
+     
+  
   color: white;
   text-align: center;
   text-decoration: none;
@@ -77,13 +75,10 @@ h1, h2 {
 }
 
 .button:hover {
-  background: linear-gradient (
-    to right,
-    rgb(0, 163, 108), /* emerald green */ 
-    rgb(0, 94, 16) /* dark green */ 
-    /* Even shaded colors on hover */
+  background-color: rgb(0, 163, 108), /* emerald green */ 
+    
 
-  );
+  
   text-decoration: none;
 }
 
