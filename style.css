@@ -60,7 +60,11 @@ h1, h2 {
   justify-content: center;
   margin: 10px;
   padding: 15px 20px; /* Enlarge the padding */
-  background-color: rgb(170, 212, 229); /* ice blue button color */
+  background: linear-gradient(
+    to bottom,
+    rgb(170, 212, 229), /* ice blue button color */
+    rgb(255, 255, 255) /* white color */ 
+  );
   color: white;
   text-align: center;
   text-decoration: none;
@@ -73,7 +77,13 @@ h1, h2 {
 }
 
 .button:hover {
-  background-color: rgb(30, 121, 7); /* Even darker green on hover */
+  background: linear-gradient (
+    to bottom,
+    rgb(140, 185, 205), /* darker ice blue */ 
+    rgb(230, 230, 230) /* soft gray-white */ 
+    /* Even shaded colors on hover */
+
+  );
   text-decoration: none;
 }
 
